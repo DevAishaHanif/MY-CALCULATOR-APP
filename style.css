@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:verdana, sans-serif;
+    background-color: lightblue;
+    }
+    .Wrapper {
+    width:100%;
+    height:500px;
+    text-align:center;
+    }
+    .Container{
+     width:45%;
+     height:320px;
+     margin-left:25%;
+     box-shadow:5px 10px 8px 10px #888888;
+     background-color: turquoise;
+    
+    }
+    h1 {
+    text-align:center;
+    text-decoration: underline 3px #f1f1f1;
+    padding-bottom:10px;
+    }
+    .inpt1,.inpt2,.inpt3 {
+     text-align:center;
+     font-size:15px;
+    }
+    .inpt3 {
+        margin-left:75px;
+       }
+       .buttons {
+        text-align:center;
+        margin-left:27%;
+        width:50%;
+        height:50px;
+        cursor:pointer;
+       }
+       
+       .btn1,.btn2,.btn3,.btn4,.btn5 {
+        text-align:center;
+        width:100px;
+        height:50px;
+        cursor:pointer;
+       }
+       .buttons{
+        margin-left:22rem;
+       }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>JS simple calculator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Simple Calculator Using JS..</h1>
+            <h5 class="inpt1">Enter 1st value :
+                <input type="number"  id="textVal1" />
+            </h5>
+            <h5 class="inpt2">Enter 2nd value :
+                <input type="number"  id="textVal2" />
+            </h5>
+            <h5 class="inpt3">Result :
+                <input type="number" id="result" />
+            </h5>
+            <div class="buttons">
+                    <button type="button" onclick="add()" class="btn1">ADD +</button>
+                    <button type="button" onclick="sub()"  class="btn2">SUB -</button>
+                    <button type="button" onclick="mul()"  class="btn3">MUL *</button>
+                    <button type="button" onclick="div()"  class="btn4">DIV /</button>
+                    <button type="button" onclick="modulus()"  class="btn5"> REM %</button>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        // 1) Function for addition (with inputs)  :
+
+        var val1 = document.getElementById("textVal1");
+        var val2 = document.getElementById("textVal2");
+        var res = document.getElementById("result");
+
+
+        
+         function add() {
+
+            value1= parseInt(val1.value);
+            value2 = parseInt(val2.value);
+            var res = (value1 +value2);
+            document.getElementById("result").value = res;
+            document.getElementById("result").value == " ";
+        
+         }
+
+  // 2) Function for subtraction (with inputs) :
+      
+  function sub() {
+             
+            value1= parseInt(val1.value);
+            value2 = parseInt(val2.value);
+            var res = value1 -value2;
+            document.getElementById("result").value = res;
+            document.getElementById("result").value == " ";
+        }
+
+ // 3) Function for multiplication (with inputs) :
+      
+ function mul() {
+            value1= parseInt(val1.value);
+            value2 = parseInt(val2.value);
+            var res = value1 *value2;
+            document.getElementById("result").value = res;
+            document.getElementById("result").value == " ";
+        }
+
+
+// 4) Function for division (with inputs) :
+      
+function div() {
+            value1= parseInt(val1.value);
+            value2 = parseInt(val2.value);
+            var res = value1 /value2;
+            document.getElementById("result").value = res;
+            document.getElementById("result").value == " ";
+        }
+
+
+// 5) Function for modulus / remainder (with inputs) :
+      
+function modulus() {
+            value1= parseInt(val1.value);
+            value2 = parseInt(val2.value);
+            var res = value1 %value2;
+            document.getElementById("result").value = res;
+            document.getElementById("result").value == " ";
+        }
+
+    
+    
+
+
+
+
+
+       
+       
+       
+       
+       
+       
+       
+        // 1)  Function for addition (without inputs) :
+
+        // var num1 = Number(prompt('enter your first number for addition'));
+        // var num2 = Number(prompt('enter your second numer addition'));
+
+        // function addition(num1, num2) {
+        //     return num1 + num2;
+        // }
+        //  console.log(addition(value1, value2));
+
+
+
+
+        // 2) Function for sutraction (without inputs) :
+
+        // var num1 = Number(prompt('enter your first number for subtraction'));
+        // var num2 = Number(prompt('enter your second numer subtraction'));
+
+
+        // function subtraction(num1, num2) {
+        //     return num1 - num2;
+        // }
+        // console.log(addition(num1, num2));
+
+
+        // 3)  Function for Multiplication (without inputs) :
+
+
+        // var num1 = Number(prompt('enter your first number for multiplication'));
+        // var num2 = Number(prompt('enter your second numer for multiplication'));
+
+
+        // function multiplication(num1, num2) {
+        //     return num1 * num2;
+        // }
+        // console.log(addition(num1, num2));
+
+
+
+        // 4) Function for division  (without inputs):
+
+
+        // var num1 = Number(prompt('enter your first number for division'));
+        // var num2 = Number(prompt('enter your second numer for division'));
+
+
+        // function division(num1, num2) {
+        //     return num1 / num2;
+        // }
+        // console.log(addition(num1, num2));
+
+
+
+      
+      
+        // 5) Function for  FUNKY (without inputs) :
+
+
+        // var num1 = Number(prompt('enter your first number for multiplication'));
+        // var num2 = Number(prompt('enter your second numer for multiplication'));
+        // var num3 = Number(prompt('enter your second numer for addition'));
+
+
+        // function funky(num1, num2, num3) {
+        //     return num2 * num3 + num1;
+        // }
+        // console.log(funky(num1, num2, num3));
+
+
+
+
+
+    
+   </script>
+   </body>
+   </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
